@@ -1,2 +1,6 @@
-# OpenMontage is cloned and installed by the cloud environment's setup script.
+# Video tools are cloned and installed by the cloud environment's setup script.
 OpenMontage/
+production-crew/
+rushcut/
+# Your videos and renders (large files, not versioned)
+videos/

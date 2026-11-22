@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rushcut": {
+      "command": "/home/user/desireeluo/rushcut/server/.venv/bin/rushcut-mcp",
+      "env": {
+        "DIRECTOR_EDITOR": "ffmpeg"
+      }
+    },
+    "makemyclip-editor": {
+      "command": "/usr/local/bin/clip",
+      "args": [
+        "mcp"
+      ]
+    }
+  }
+}
