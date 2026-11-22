@@ -15,6 +15,9 @@ uma sessão nova:
    Remotion para o Chromium já instalado (`/opt/pw-browsers/...`), porque o
    download do navegador do Remotion é bloqueado pela rede.
 3. Baixa as vozes do Piper `pt_BR-faber-medium` e `en_US-lessac-medium`.
+4. Instala o `faster-whisper` (transcrição para legendas e cortes). A variável
+   `HF_HUB_DISABLE_XET=1` faz o Hugging Face baixar os modelos por um caminho
+   liberado na rede.
 
 A rede desse ambiente libera os sites de mídia grátis (NASA, Wikimedia,
 Archive.org, Pexels, Pixabay, Unsplash, Openverse) e o Hugging Face (vozes).
